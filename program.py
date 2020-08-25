@@ -37,10 +37,11 @@ while True:
 
         if myCount > myCountTemp :
             print("Its Higher")
-            playsound('yousuck.mp3')
+            #Location of the media file
+            playsound('/Volumes/External/tiktokFollower/yousuck.mp3')
 
         myCountTemp = myCount
-
+        #Prints the follower count
         print(myCount)
 
 
